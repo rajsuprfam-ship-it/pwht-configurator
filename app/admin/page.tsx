@@ -1,8 +1,8 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import PWHT3D from "./components/PWHT3D";
-import Configurator from "./components/Configurator";
-import ROICalculator from "./components/ROICalculator";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import PWHT3D from "../components/PWHT3D";
+import Configurator from "../components/Configurator";
+import ROICalculator from "../components/ROICalculator";
 
 export default function Home() {
   return (

@@ -4,10 +4,13 @@ import { useState, useEffect } from "react";
 import { jsPDF } from "jspdf";
 import emailjs from "@emailjs/browser";
 import { supabase } from "../lib/supabase";
-import { ConfigData } from "../page";
+
 
 interface ROICalculatorProps {
-  configData: ConfigData;
+  configData?: {
+    application?: string;
+    recommendedPower?: number;
+  };
 }
 
 export default function ROICalculator({ configData }: ROICalculatorProps) {
