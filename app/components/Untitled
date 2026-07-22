@@ -1,0 +1,45 @@
+PS C:\Users\Sigmaweld> PS C:\pwht-configurator> ^C
+>> PS C:\pwht-configurator> npm run dev
+>>
+>> > pwht-configurator@0.1.0 dev
+>> > next dev
+>>
+>> ? Port 3000 is in use by process 8540, using available port 3001 instead.
+>> ▲ Next.js 16.2.10 (Turbopack)
+>> - Local:         http://localhost:3001
+>> - Network:       http://192.168.1.63:3001
+>> √ Ready in 759ms
+>> ? Another next dev server is already running.
+>>
+>> - Local:        http://localhost:3000
+>> - PID:          8540
+>> - Dir:          C:\pwht-configurator
+>> - Log:          .next\dev\logs\next-development.log
+>>
+>> Run taskkill /PID 8540 /F to stop it.
+>>
+>> PS C:\pwht-configurator> PS C:\Users\Sigmaweld> taskkill /PID 24036 /F
+>> SUCCESS: The process with PID 24036 has been terminated.
+>> PS C:\Users\Sigmaweld>  taskkill /PID 24036 /F
+>> ERROR: The process "24036" not found.
+>> PS C:\Users\Sigmaweld> PS C:\pwht-configurator> ^C
+>> >> PS C:\pwht-configurator> npm run dev
+>> >>
+>> >> > pwht-configurator@0.1.0 dev
+>> >> > next dev
+>> >>
+>> >> ? Port 3000 is in use by process 8540, using available port 3001 instead.
+>> >> ▲ Next.js 16.2.10 (Turbopack)
+>> >> - Local:         http://localhost:3001
+>> >> - Network:       http://192.168.1.63:3001
+>> >> √ Ready in 759ms
+>> >> ? Another next dev server is already running.
+>> >>
+>> >> - Local:        http://localhost:3000
+>> >> - PID:          8540
+>> >> - Dir:          C:\pwht-configurator
+>> >> - Log:          .next\dev\logs\next-development.log
+>> >>
+>> >> Run taskkill /PID 8540 /F to stop it.
+>> >>
+>> >> PS C:\pwht-configurator>
